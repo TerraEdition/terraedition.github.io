@@ -1,0 +1,22 @@
+<script>
+const urlParams= new URLSearchParams(window.location.search);
+let v = '';
+let p = '';
+let t = '';
+if(urlParams.has('version')){
+v = urlParams.get('version')
+}
+if(urlParams.has('type')){
+t = urlParams.get('type')
+}
+
+if(urlParams.has('platform')){
+p = urlParams.get('platform')
+}
+
+if(v=='' && t ==''&& p==''){
+	window.location.replace(urlParams.get('url'));
+}else{
+	window.location.replace(urlParams.get('url') + "?type=" + t +"&version=" + v+"&platform="+p);
+}
+</script>
