@@ -1,0 +1,122 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="remy song">
+<meta name="description" content="Tempat Berkaraoke dan bernyanyi bersama keluarga di rumah">
+<meta name="keywords" content="karaoke, musik, bernyanyi, hokkian, hakka, mandarin, remix, pop, rock, remy song, lagu" />
+<title>Remy Song | Kebijakan Privasi</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+<!-- CSS only -->
+
+<link rel="stylesheet" href="<?= base_url() ?>/public/Frontend/CSS/Tooltip.css">
+    <div class="container my-5">
+      <h2 class="text-center mb-5">Kebijakan Privasi</h2>
+      <p>
+        Kebijakan Privasi ini menjelaskan informasi yang dikumpulkan saat anda
+        menggunakan layanan kami, serta cara kami menggunakannya.
+      </p>
+      <p>Kami berkomitmen untuk melindungi privasi pengguna kami.</p>
+      <p>
+        Kebijakan kami berlaku untuk situs ataupun perangkat lunak seluler yang
+        menggunakan layanan kami.
+      </p>
+      <ol class="list">
+        <li>
+          Kami mengumpulkan informasi akun dasar seperti nomor telepon, nama
+          pengguna, dan kata sandi Anda. Kami memerlukan informasi ini untuk
+          membuat akun Anda guna memberi Anda akses ke Layanan kami. Pemrosesan
+          ini diperlukan untuk menyediakan Layanan kami.
+        </li>
+        <li>
+          Kami mengumpulkan informasi profil tambahan tentang Anda ketika Anda
+          mengunggah gambar, atau menambahkan minat, genre musik, keterampilan,
+          dan apa yang Anda sukai. Ini memungkinkan kami untuk memberikan
+          rekomendasi dan memberi Anda Layanan yang dipersonalisasi, sesuai
+          dengan kepentingan sah kami.
+        </li>
+        <li>
+          kami memiliki kepentingan yang sah dalam mengumpulkan informasi dari
+          tindakan yang Anda ambil untuk merekomendasikan, membuat,
+          mengomunikasikan, dan berbagi konten sehingga kami dapat berupaya
+          meningkatkan Layanan kami.
+        </li>
+        <li>
+          Jika Anda mengirimkan permintaan atau komentar dukungan kepada kami,
+          Anda juga dapat memberi kami informasi tambahan untuk memungkinkan
+          kami menghubungi Anda dan menanggapi umpan balik Anda dan kami dapat
+          menyimpan informasi tersebut untuk meningkatkan Layanan kami dan untuk
+          menanggapi Anda.
+        </li>
+        <li>
+          Forum, papan pesan, blog dan/atau grup berita mungkin tersedia untuk
+          Anda melalui Layanan. Harap diingat bahwa setiap informasi yang Anda
+          posting (termasuk di area ini) dapat menjadi informasi publik dan
+          dapat dihapus atau ditangani jika melanggar Ketentuan Layanan dan
+          Pedoman Komunitas kami. Kami menggunakan informasi yang tersedia untuk
+          umum untuk membantu menyediakan Layanan kami. Jika Anda memposting
+          informasi pribadi secara online yang dapat diakses oleh publik, Anda
+          mungkin menerima tanggapan yang tidak diminta. Anda harus berhati-hati
+          saat memutuskan untuk mengungkapkan informasi pribadi Anda di forum
+          publik, termasuk dalam aplikasi kami, karena dapat disalahgunakan atau
+          disalahgunakan oleh pihak ketiga.
+        </li>
+        <li>
+          Saat Anda membeli langganan yang ditawarkan melalui Layanan, Anda
+          memberikan informasi pembayaran Anda kepada pemroses pembayaran kami.
+          Ini diperlukan untuk memproses pembayaran Anda. Saat ini kami
+          menggunakan pihak ketiga untuk memproses pembayaran tersebut tetapi
+          dapat mengubahnya di masa depan.
+        </li>
+        <li>
+          Untuk lebih jelasnya, kami tidak meminta Anda untuk memberikan kami
+          informasi pribadi yang sensitif, seperti informasi yang berkaitan
+          dengan ras atau asal etnis, pendapat politik, keyakinan agama atau
+          filosofi, keanggotaan serikat pekerja, kesehatan fisik atau mental,
+          genetik atau informasi biometrik, kehidupan seksual atau orientasi
+          seksual. Namun, jika Anda memutuskan untuk membagikan informasi
+          semacam ini, Anda secara tegas menyetujui kami untuk menampilkannya
+          atau membagikannya sesuai dengan pilihan Anda.
+        </li>
+      </ol>
+      <ol type="I">
+        <li>
+          Dari Browser dan Perangkat Anda Gunakan
+          <p>
+            Kami mengumpulkan informasi dari browser, komputer, atau perangkat
+            seluler Anda, yang memberi kami informasi teknis saat Anda
+            menggunakan Layanan, termasuk:
+          </p>
+          <ul>
+            <li>
+              Saat Anda menggunakan Layanan, kami secara otomatis mengumpulkan
+              data log tertentu, termasuk alamat IP Anda, jenis browser, jenis
+              perangkat keras, ID perangkat unik, versi sistem operasi Anda, dan
+              aktivitas Anda dalam Layanan. Kami menggunakan data log untuk
+              tujuan keamanan (seperti seperti mencegah konten diakses secara
+              tidak benar) dan untuk meningkatkan Layanan kami (seperti
+              meningkatkan kinerja situs di wilayah tertentu).
+            </li>
+            <li>Kami dapat menggunakan rekaman, video, dan/atau konten lain yang Anda buat dan posting di Layanan untuk mempromosikan Layanan kami.</li>
+            <li>
+                Kami menggunakan cookie, yang menyimpan file data kecil yang tersimpan di komputer atau perangkat seluler Anda, dan teknologi serupa lainnya seperti kit pengembangan perangkat lunak ("SDK") atau perpustakaan pihak ketiga. Kami menggunakan cookie untuk membedakan Anda, dan akun Anda serta status dan pengaturan, untuk mengumpulkan data penggunaan, melacak preferensi Anda, dan mengirimkan konten khusus untuk minat Anda. Misalnya, kami menggunakan cookie untuk mengingat pengaturan volume, pengaturan bahasa, riwayat pencarian, jenis akun, dan terakhir kali Anda memeriksa atau memperbarui umpan Anda.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    
+    <footer class="fixed-bottom bg-dark">
+        <div class="container">
+            <?= date('Y') == '2022' ?
+                '2022' : '2022 -' . date('Y') ?>
+            &copy;
+            <?= _session("company") ?>
+            Powered By TerraEdition
+        </div>
+    </footer>
+<input type="hidden" id="terra_token" value="<?= csrf_hash() ?>" data-token="<?= csrf_token() ?>">
+<div id="formContainer"></div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
