@@ -23,7 +23,7 @@ url = urlParams.get('url')
 if(url=='screen'){
 	window.location.replace(u + "/screen?type=" + t);
 }else if(url=='controller'){
-	window.location.replace(u + "/controller?type=" + t +"&version=" + v+"&platform="+p);
+	window.location.replace(u + "/player?type=" + t +"&version=" + v+"&platform="+p);
 }else{
 	window.location.replace(urlParams.get('url'));
 }
