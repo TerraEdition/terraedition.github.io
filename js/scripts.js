@@ -41,7 +41,7 @@ function showModal() {
   a.addEventListener("click", function () {
     if (a.dataset.index == "aws1") {
       modalBody.innerHTML = `<img src="assets/img/sertifikat/aws.jpeg" alt="AWS 1">`;
-    } else if (a.dataset.index == "aws1") {
+    } else if (a.dataset.index == "aws2") {
       modalBody.innerHTML = `<img src="assets/img/sertifikat/aws-2.jpeg" alt="AWS 2">`;
     } else if (a.dataset.index == "apo-siak") {
       modalBody.innerHTML = `Aplikasi Online RSUD Tengku Rafi'an ini merupakan aplikasi yang diperuntukkan bagi pasien Rumah Sakit Umum Daerah Tengku Rafi'an Kabupaten Siak yang ingin melakukan pendaftaran secara online. Selain dipergunakan untuk pendaftaran online, aplikasi ini juga berisi informasi-informasi mengenai jadwal dokter, jadwal dokter cuti, informasi unggulan lainnya`;
