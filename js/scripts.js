@@ -252,6 +252,49 @@ function showModal() {
     </div>`;
       modalFooter.innerHTML = `<a href="https://rsud.dumaikota.go.id/" target="_blank"
         class="btn btn-primary text-light text-decoration-none"> Kunjungi Link </a>`;
+    } else if (a.dataset.index == "ikjr") {
+      modalBody.innerHTML = `<div>Aplikasi ini dapat digunakan untuk mendata data anggota serta mencetak kartu anggota:
+          </div>
+          <ol class="text-start">
+              <li>
+                  <div>Halaman Administrator</div>
+                  <div>Halaman Adminitrator adalah halaman yang digunakan untuk memasukkan
+                      data.</div>
+                  <div>Halaman Administrator memiliki menu :</div>
+                  <ul>
+                      <li>Halaman Managemen Data Pengguna</li>
+                      <li>Halaman Managemen Data Anggota</li>
+                      <li>Halaman Managemen Data Cetak Kartu Anggota</li>
+                      <li>Halaman Custom Template Dashboard</li>
+                      <li>Halaman Sistem Informasi</li>
+                      <li>dan lainnya</li>
+                  </ul>
+              </li>
+          </ol>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/project/ikjr.jpeg" class="d-block w-100 h-50" alt="ikjr-login">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/project/ikjr2.jpeg" class="d-block w-100 h-50" alt="ikjr-report">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/project/ikjr3.jpeg" class="d-block w-100 h-50" alt="ikjr-member">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+         `;
+      modalFooter.innerHTML = `<a href="http://ikjr.pilar-id.io:81/" target="_blank"
+          class="btn btn-primary text-light text-decoration-none"> Kunjungi Link </a>`;
     }
     showModal();
   });
