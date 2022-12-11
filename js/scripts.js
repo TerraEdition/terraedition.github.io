@@ -366,8 +366,6 @@ function showModal() {
           </button>
         </div>
          `;
-      modalFooter.innerHTML = `<a href="http://ikjr.pilar-id.io:81/" target="_blank"
-          class="btn btn-primary text-light text-decoration-none"> Kunjungi Link </a>`;
     }
     showModal();
   });
