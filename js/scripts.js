@@ -146,7 +146,7 @@ function showModal() {
           </li>
           <li>
               <div>Halaman Administrator</div>
-              <div>Halaman Adminitrator adalah halaman yang digunakan pihak rumah sakit untuk memasukkan
+              <div>Halaman Administrator adalah halaman yang digunakan pihak rumah sakit untuk memasukkan
                   data.</div>
               <div>Halaman Administrator memiliki menu :</div>
               <ul>
@@ -212,7 +212,7 @@ function showModal() {
           </li>
           <li>
               <div>Halaman Administrator</div>
-              <div>Halaman Adminitrator adalah halaman yang digunakan pihak rumah sakit untuk memasukkan
+              <div>Halaman Administrator adalah halaman yang digunakan pihak rumah sakit untuk memasukkan
                   data seputar rumah sakit yang dapat dilihat di halaman pengunjung.</div>
               <div>Halaman Administrator memiliki menu :</div>
               <ul>
@@ -258,7 +258,7 @@ function showModal() {
           <ol class="text-start">
               <li>
                   <div>Halaman Administrator</div>
-                  <div>Halaman Adminitrator adalah halaman yang digunakan untuk memasukkan
+                  <div>Halaman Administrator adalah halaman yang digunakan untuk memasukkan
                       data.</div>
                   <div>Halaman Administrator memiliki menu :</div>
                   <ul>
@@ -323,7 +323,7 @@ function showModal() {
           <ol class="text-start">
               <li>
                   <div>Halaman Administrator</div>
-                  <div>Halaman Adminitrator adalah halaman yang digunakan untuk memasukkan
+                  <div>Halaman Administrator adalah halaman yang digunakan untuk memasukkan
                       data.</div>
                   <div>Halaman Administrator memiliki menu :</div>
                   <ul>
@@ -354,6 +354,68 @@ function showModal() {
             </div>
             <div class="carousel-item">
               <img src="assets/img/project/server4.jpeg" class="d-block w-100 h-50" alt="server-graphic-sales">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/project/server5.jpeg" class="d-block w-100 h-50" alt="server-manajemen-user">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+         `;
+    } else if (a.dataset.index == "cabang") {
+      modalBody.innerHTML = `<div>Aplikasi ini dapat digunakan seperti toko online yang data utama berasal dari Aplikasi Pembelian dan Penjualan (Pusat)
+          </div>
+          <ol class="text-start">
+            <li>
+                  <div>Halaman Pengunjung</div>
+                  <div>Halaman Pengunjung adalah halaman yang digunakan pengunjung website.</div>
+                  <div>Halaman Pengunjung memiliki menu :</div>
+                  <ul>
+                      <li>Halaman Produk</li>
+                      <li>Halaman Keranjang</li>
+                      <li>Halaman Profile Pengunjung</li>
+                      <li>Halaman Transaksi</li>
+                      <li>Halaman Customer Service</li>
+                      <li>dan lainnya</li>
+                  </ul>
+              </li>
+              <li>
+                  <div>Halaman Administrator</div>
+                  <div>Halaman Administrator adalah halaman yang digunakan untuk memasukkan
+                      data, Halaman ini harus terdata di aplikasi Pusat terlebih dahulu dan diberi akses.</div>
+                  <div>Halaman Administrator memiliki menu :</div>
+                  <ul>
+                      <li>Halaman Managemen Data Produk</li>
+                      <li>Halaman Detail Pelanggan dari Rest API</li>
+                      <li>Halaman Detail Metode Pembayaran dari Rest API</li>
+                      <li>Halaman Konfigurasi Rest API</li>
+                      <li>Halaman Managemen Data Konfigurasi Aplikasi</li>
+                      <li>Halaman Custom Template Dashboard</li>
+                      <li>Halaman Sistem Informasi</li>
+                      <li>dan lainnya</li>
+                  </ul>
+              </li>
+          </ol>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/project/cabang.jpeg" class="d-block w-100 h-50" alt="cabang-cart">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/project/cabang2.jpeg" class="d-block w-100 h-50" alt="cabang-detail-trans">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/project/cabang3.jpeg" class="d-block w-100 h-50" alt="cabang-product">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/project/cabang4.jpeg" class="d-block w-100 h-50" alt="cabang-trans">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
