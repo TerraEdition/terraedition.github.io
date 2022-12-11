@@ -311,6 +311,7 @@ function showModal() {
             <li>Menyiapkan Server (Hosting, VPS) serta penginstallan Sertifikat SSL pada domain</li>
           </ol>
          `;
+      modalFooter.innerHTML = "";
     } else if (a.dataset.index == "cv-persamnas-job") {
       modalBody.innerHTML = `
           <ol class="text-start">
@@ -323,6 +324,7 @@ function showModal() {
             <li>Memonitoring Jaringan Menggunakan Dude</li>
           </ol>
          `;
+      modalFooter.innerHTML = "";
     } else if (a.dataset.index == "server") {
       modalBody.innerHTML = `<div>Aplikasi ini dapat digunakan untuk mendata transaksi penjualan atau pembelian:
           </div>
