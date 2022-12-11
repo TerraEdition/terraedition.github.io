@@ -295,6 +295,28 @@ function showModal() {
          `;
       modalFooter.innerHTML = `<a href="http://ikjr.pilar-id.io:81/" target="_blank"
           class="btn btn-primary text-light text-decoration-none"> Kunjungi Link </a>`;
+    } else if (a.dataset.index == "freelance-job") {
+      modalBody.innerHTML = `
+          <ol class="text-start">
+            <li>Membangun Website dari sisi Frontend dan Backend menggunakan Bahasa Pemograman seperti PHP, Javascript.</li>
+            <li>Membuat Aplikasi Android menggunakan Bahasa Pemograman Kotlin</li>
+            <li>Membuat REST API sebagai penghubung antar aplikasi</li>
+            <li>Membuat Design dalam bentuk Gambar dengan menggunakan Aplikasi Adobe Illustrator serta Video Singkat dengan menggunakan Aplikasi Cyberlink Power Director</li>
+            <li>Menyiapkan Server (Hosting, VPS) serta penginstallan Sertifikat SSL pada domain</li>
+          </ol>
+         `;
+    } else if (a.dataset.index == "cv-persamnas-job") {
+      modalBody.innerHTML = `
+          <ol class="text-start">
+            <li>Membuat Website menggunakan CMS Joomla dan Wordpress.</li>
+            <li>Membuat Aplikasi Webview untuk Android</li>
+            <li>Membantu Pengembangan Micro Controller (Arduino).</li>
+            <li>Membantu Instalasi Jaringan seperti pemasangan Access Point, Penarikkan Kabel Jaringan (Fiber Optik / FO dan Unshielded Twisted Pair / UTP).</li>
+            <li>Menyetting Perangkat Mikrotik.</li>
+            <li>Menyetting Perangkat Jaringan berbasis Linux seperti Access Point.</li>
+            <li>Memonitoring Jaringan Menggunakan Dude</li>
+          </ol>
+         `;
     }
     showModal();
   });
