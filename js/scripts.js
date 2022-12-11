@@ -32,9 +32,15 @@ const modalFooter = document.querySelector(".modal-footer");
 
 function showModal() {
   new bootstrap.Modal(document.querySelector("#showModal"), {
-    keyboard: false,
+    keyboard: true,
     backdrop: "static",
+    focus: true,
   }).show();
+  document
+    .querySelector("#showModal")
+    .addEventListener("shown.bs.modal", () => {
+      modalBody.focus();
+    });
 }
 
 [...modalBtn].forEach((a) => {
